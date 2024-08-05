@@ -1,0 +1,4 @@
+# this time, this is a singularity/apptainer SIF file, named after the main binary expected to execute:
+./mob_recon
+
+# more tbd if needed
