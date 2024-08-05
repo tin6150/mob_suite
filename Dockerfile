@@ -1,5 +1,9 @@
 # Dockerfile for creating and host genomic software MOB-suite, with python + libs 
-# mostly:
+
+# pull from cloud build:
+# apptainer pull --name mob_recon docker://ghcr.io/tin6150/mob_suite:main
+
+# or build manually, mostly:
 # docker build -f Dockerfile .  | tee LOG.Dockerfile.txt
 # where it get python from OS package, then pip to add libraries
 # see DevNotes.txt for more build details
@@ -8,7 +12,8 @@
 
 # branch specific settings:
 
-FROM ubuntu:21.04   
+FROM ubuntu:22.04   
+# FROM ubuntu:21.04       ## 2024.0805 apt get not found in 91.189.91.81, so using newer version here
 # FROM ubuntu:20.04   
 # FROM ubuntu:22.04       ## invoking docker ps from inside zink has strange error, test with older version
 # FROM debian:12.5-slim   ## bookworm-slim

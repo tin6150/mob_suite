@@ -18,7 +18,7 @@ intenteded for use in HPC
 
 pull as:
 
-apptainer pull --name mob_recon docker://ghcr.io/tin6150/prodigal:main
+apptainer pull --name mob_recon docker://ghcr.io/tin6150/mob_suite:main
 
 
 == adoc testing below, please ignore
