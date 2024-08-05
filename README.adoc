@@ -1,0 +1,17 @@
+= mob_suite
+
+unofficial containerization of genomic software MOB-suite (https://github.com/phac-nml/mob-suite), with database
+
+https://github.com/phac-nml/mob-suite
+has docker image and singularity definition file, 
+but on 2024-08 when I used the docker image it didn't work.
+
+also, theirs dont have database needed by mob_init, 
+I am running that inside the container so it i will be a fat container, with the db embeded in it, 
+so mob_recon is ready to run
+
+intenteded for use in HPC
+
+pull as:
+
+apptainer pull ...

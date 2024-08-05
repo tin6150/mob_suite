@@ -1,0 +1,8 @@
+
+the software_module_farm.git  noarch/modules/mob-suite/1.4.1--py36_0
+had some seed info
+was trying to not have to create this per-sw repo, 
+but haven't ironed out procedure on how to do that.
+
+
+
